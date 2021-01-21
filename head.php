@@ -37,8 +37,8 @@
   <link rel="stylesheet" href="common.css">
   <script src="common.js" defer></script>
 
-  <link rel="stylesheet" href="articles.css">
-  <script src="articles.js" defer></script>
+  <link rel="stylesheet" href="index.css">
+  <script src="index.js" defer></script>
 </head>
 
 <body>
@@ -54,25 +54,25 @@
         <nav class="top-bar__menu-box-1 height-100p">
           <ul class="flex height-100p">
             <li>
-              <a href="index.html" class="flex flex-jc-c flex-ai-c height-100p">
+              <a href="index.php" class="flex flex-jc-c flex-ai-c height-100p">
                 <span><i class="fas fa-home"></i></span>
                 <span>HOME</span>
               </a>
             </li>
             <li>
-              <a href="about.html" class="flex flex-jc-c flex-ai-c height-100p">
+              <a href="about.php" class="flex flex-jc-c flex-ai-c height-100p">
                 <span><i class="far fa-address-card"></i></span>
                 <span>ABOUT</span>
               </a>
             </li>
             <li>
-              <a href="portfolio.html" class="flex flex-jc-c flex-ai-c height-100p">
+              <a href="portfolio.php" class="flex flex-jc-c flex-ai-c height-100p">
                 <span><i class="fas fa-list-alt"></i></span>
                 <span>PORTFOLIO</span>
               </a>
             </li>
             <li>
-              <a href="articles.html" class="flex flex-jc-c flex-ai-c height-100p">
+              <a href="articles.php" class="flex flex-jc-c flex-ai-c height-100p">
                 <span><i class="fas fa-newspaper"></i></span>
                 <span>ARTICLES</span>
               </a>
@@ -110,25 +110,25 @@
       <nav class="mobile-side-bar__menu-box-1">
         <ul>
           <li>
-            <a href="#" class="block">
+            <a href="index.php" class="block">
               <span><i class="fas fa-home"></i></span>
               <span>HOME</span>
             </a>
           </li>
           <li>
-            <a href="#" class="block">
+            <a href="about.php" class="block">
               <span><i class="far fa-address-card"></i></span>
               <span>ABOUT</span>
             </a>
           </li>
           <li>
-            <a href="#" class="block">
+            <a href="portfolio.php" class="block">
               <span><i class="fas fa-list-alt"></i></span>
               <span>PORTFOLIO</span>
             </a>
           </li>
           <li>
-            <a href="#" class="block">
+            <a href="articles.php" class="block">
               <span><i class="fas fa-newspaper"></i></span>
               <span>ARTICLES</span>
             </a>
@@ -140,28 +140,3 @@
     <!-- 모바일 사이드 바 끝 -->
   
     <main>
-      <section class="section-title con-min-width">
-        <h1 class="con">
-          <span><i class="far fa-hand-point-up"></i></span>
-          <span>
-            ARTICLES</span>
-        </h1>
-
-    </main>
-  
-    <!-- 하단바 시작 -->
-    <footer class="bottom-bar con-min-width">
-      <div class="con flex flex-jc-c">
-        <a href="#" class="logo">
-          <span><i class="fab fa-android"></i></span>
-          <span>LSH Blog</span>
-        </a>
-      </div>
-    </footer>
-    <!-- 하단바 끝 -->
-  
-  </div>
-
-</body>
-
-</html>
