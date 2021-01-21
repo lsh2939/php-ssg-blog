@@ -217,6 +217,8 @@ a {
   font-size: 1.2rem;
 }
 
+.top-bar__menu-box-1>ul>li {}
+
 .top-bar__menu-box-1>ul>li>a {
   font-weight: bold;
   padding-left: 20px;
@@ -246,6 +248,7 @@ a {
 .mobile-top-bar {
   box-shadow: 2px 1px 5px rgba(0, 0, 0, 0.6);
   color: #6a8518;
+  background-color: white;
   height: var(--mobile-top-bar__height);
   position: fixed;
   top: 0;
@@ -402,7 +405,7 @@ a {
   padding-bottom: 20px;
 }
 
-.article-list-box__reg-date::before {
+.reg-date::before {
   content: "작성 : ";
 }
 

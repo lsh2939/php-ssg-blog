@@ -17,8 +17,8 @@ require_once "head.php";
     <div class="article-list-box">
       <ul>
         <li>
-          <h1 class="article-list-box__title">Day1</h1>
-          <div class="article-list-box__reg-date">2020-01-12 12:12:14</div>
+          <h1 class="title">Day1</h1>
+          <div class="reg-date">2020-01-12 12:12:14</div>
           <div class="article-list-box__writer">
             <span>이상훈</span>
             <span>
@@ -27,7 +27,7 @@ require_once "head.php";
               </svg>
             </span>
           </div>
-          <div class="article-list-box__body">
+          <div class="body">
             <script type="text/x-template">
 # 변수 개요
 - 변수 :변수는 데이터를 담기 위한 메모리 공간을 의미한다 쉽게 생각하면, 어떤 값을 담기 위한 상자나 그릇이라고 비유할 수 있
@@ -66,8 +66,8 @@ https://codepen.io/jangka44/embed/XWjxbgy?height=300&theme-id=light&default-tab=
         </li>
 
         <li>
-          <h1 class="article-list-box__title">Day2</h1>
-          <div class="article-list-box__reg-date">2020-01-12 12:12:14</div>
+          <h1 class="title">Day2</h1>
+          <div class="reg-date">2020-01-12 12:12:14</div>
 
           <div class="article-list-box__writer">
             <span>이상훈</span>
@@ -78,7 +78,7 @@ https://codepen.io/jangka44/embed/XWjxbgy?height=300&theme-id=light&default-tab=
             </span>
           </div>
 
-          <div class="article-list-box__body">
+          <div class="body">
             <script type="text/x-template">
 # 태그
 ```codepen
@@ -89,8 +89,8 @@ https://codepen.io/jangka44/embed/NWROGrL?height=265&theme-id=light&default-tab=
           </div>
         </li>
         <li>
-          <h1 class="article-list-box__title">Day3</h1>
-          <div class="article-list-box__reg-date">2020-01-12 12:12:14</div>
+          <h1 class="title">Day3</h1>
+          <div class="reg-date">2020-01-12 12:12:14</div>
 
           <div class="article-list-box__writer">
             <span>이상훈</span>
@@ -101,7 +101,7 @@ https://codepen.io/jangka44/embed/NWROGrL?height=265&theme-id=light&default-tab=
             </span>
           </div>
 
-          <div class="article-list-box__body">
+          <div class="body">
             <script type="text/x-template">
 # 토글 사이드 바
 ```youtube
