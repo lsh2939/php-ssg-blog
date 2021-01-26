@@ -1,11 +1,12 @@
 function MobileTopBar_init() {
-  $('.mobile-top-bar__btn-toggle-side-bar').click(function () {
+  $('.mobile-top-bar__btn-toggle-side-bar').click(function(){
     let $this = $(this);
-
-    if ($this.hasClass('active')) {
+    
+     if ( $this.hasClass('active') ) {
       $this.removeClass('active');
       $('.mobile-side-bar').removeClass('active');
-    } else {
+    }
+    else {
       $this.addClass('active');
       $('.mobile-side-bar').addClass('active');
     }
@@ -59,14 +60,14 @@ function renderCodepen(wrapperId, url) {
 // codepen 플러그인 끝
 
 function Editor__init() {
-  $('.toast-ui-editor').each(function (index, node) {
+  $('.toast-ui-editor').each(function(index, node) {
     var initialValue = $(node).prev().html().trim().replace(/<!--REPLACE:script-->/gi, 'script');
 
     var editor = new toastui.Editor({
       el: node,
       previewStyle: 'vertical',
       initialValue: initialValue,
-      height: 600,
+      height:600,
       plugins: [toastui.Editor.plugin.codeSyntaxHighlight, youtubePlugin, codepenPlugin]
     });
   });
@@ -74,12 +75,12 @@ function Editor__init() {
 Editor__init();
 
 function EditorViewer__init() {
-  $('.toast-ui-viewer').each(function (index, node) {
+  $('.toast-ui-viewer').each(function(index, node) {
     var initialValue = $(node).prev().html().trim().replace(/<!--REPLACE:script-->/gi, 'script');
     var viewer = new toastui.Editor.factory({
       el: node,
       initialValue: initialValue,
-      viewer: true,
+      viewer:true,
       plugins: [toastui.Editor.plugin.codeSyntaxHighlight, youtubePlugin, codepenPlugin]
     });
   });
