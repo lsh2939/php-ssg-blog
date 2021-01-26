@@ -217,8 +217,6 @@ a {
   font-size: 1.2rem;
 }
 
-.top-bar__menu-box-1>ul>li {}
-
 .top-bar__menu-box-1>ul>li>a {
   font-weight: bold;
   padding-left: 20px;
