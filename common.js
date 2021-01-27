@@ -1,4 +1,6 @@
-function MobileTopBar_init() {
+console.clear();
+
+function MobileTopBar__init() {
   $('.mobile-top-bar__btn-toggle-side-bar').click(function () {
     let $this = $(this);
 
@@ -12,7 +14,8 @@ function MobileTopBar_init() {
   });
 }
 
-MobileTopBar_init();
+MobileTopBar__init();
+
 
 /* 토스트 UI 시작 */
 
@@ -60,7 +63,7 @@ function renderCodepen(wrapperId, url) {
 
 function Editor__init() {
   $('.toast-ui-editor').each(function (index, node) {
-    var initialValue = $(node).prev().html().trim().replace(/<!--REPLACE:script-->/gi, 'script');
+    var initialValue = $(node).prev().html().trim().replace(/t-script/gi, 'script');
 
     var editor = new toastui.Editor({
       el: node,
@@ -71,11 +74,14 @@ function Editor__init() {
     });
   });
 }
-Editor__init();
+
+$(function () {
+  Editor__init();
+});
 
 function EditorViewer__init() {
   $('.toast-ui-viewer').each(function (index, node) {
-    var initialValue = $(node).prev().html().trim().replace(/<!--REPLACE:script-->/gi, 'script');
+    var initialValue = $(node).prev().html().trim().replace(/t-script/gi, 'script');
     var viewer = new toastui.Editor.factory({
       el: node,
       initialValue: initialValue,
@@ -84,6 +90,9 @@ function EditorViewer__init() {
     });
   });
 }
-EditorViewer__init();
+
+$(function () {
+  EditorViewer__init();
+});
 
 /* 토스트 UI 끝 */
