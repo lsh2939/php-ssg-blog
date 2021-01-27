@@ -7,44 +7,6 @@
     <title>이상훈 블로그</title>
 
 
-    <!--반응형-->
-    <meta name="viewport" content="width=device-width, user-scalable=no" />
-
-    <!--제이쿼리-->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-
-    <!--폰트어썸-->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
-
-    <!--토스트 UI-->
-    <!-- 하이라이트 라이브러리 -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.4.1/highlight.min.js"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.4.1/styles/default.min.css">
-
-    <!-- 토스트 UI 에디터 -->
-    <script src="https://uicdn.toast.com/editor/latest/toastui-editor-all.min.js"></script>
-
-    <!-- 코드 미러 라이브러리 -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.58.3/codemirror.min.css" />
-    <!-- CSS 코어 -->
-    <link rel="stylesheet" href="https://uicdn.toast.com/editor/latest/toastui-editor.min.css" />
-
-    <!-- 신택스 하이라이트 플러그인 -->
-    <script
-        src="https://uicdn.toast.com/editor-plugin-code-syntax-highlight/latest/toastui-editor-plugin-code-syntax-highlight.min.js">
-    </script>
-
-    <!-- 댓글 기능-->
-    <script id="dsq-count-scr" src="//EXAMPLE.disqus.com/count.js" async></script>
-
-    <link rel="stylesheet" href="common.css">
-    <script src="common.js"></script>
-
-    <link rel="stylesheet" href="index.css">
-    <script src="index.js"></script>
-</head>
-
-<body>
     <!-- 반응형 필수 -->
     <meta name="viewport" content="width=device-width, user-scalable=no" />
 
@@ -76,11 +38,14 @@
     <!-- 댓글 기능-->
     <script id="dsq-count-scr" src="//EXAMPLE.disqus.com/count.js" async></script>
 
-    <!-- 블렌드 시작 -->
-    <div class="cursor"></div>
-    <div class="cursor-shadow"></div>
-    <!-- 블랜드 끝 -->
+    <link rel="stylesheet" href="common.css">
+    <script src="common.js"></script>
 
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js"></script>
+</head>
+
+<body>
     <div class="body-content">
 
         <!-- 탑바 시작 -->
@@ -207,19 +172,19 @@
                                 <div class="article-list-box__body">
                                     <script type="text/x-template">
                                         # 개요
-- script 태그를 사용해야 한다.
-- src 속성으로 외부 스크립트를 불러올 수 있다.
-- defer 속성으로 html 엘리먼트 로딩까지 실행을 유보시킬 수 있다.
-- 자식 컨텐츠로 자바스크립트를 넣어서 사용할 수 있다.
-
-# 예시 - 자식 컨텐츠로 자바스크립트를 넣어서 사용
-```html
-<t-script>
-var a = 10;
-</t-script>
-<div class="a"></div>
-```
-               </script>
+      - script 태그를 사용해야 한다.
+      - src 속성으로 외부 스크립트를 불러올 수 있다.
+      - defer 속성으로 html 엘리먼트 로딩까지 실행을 유보시킬 수 있다.
+      - 자식 컨텐츠로 자바스크립트를 넣어서 사용할 수 있다.
+      
+      # 예시 - 자식 컨텐츠로 자바스크립트를 넣어서 사용
+      ```html
+      <t-script>
+      var a = 10;
+      </t-script>
+      <div class="a"></div>
+      ```
+                     </script>
                                     <div class="toast-ui-viewer"></div>
                                 </div>
                             </li>
@@ -248,10 +213,10 @@ var a = 10;
                                 <div class="article-list-box__body">
                                     <script type="text/x-template">
                                         # 태그
-```codepen
-https://codepen.io/jangka44/embed/NWROGrL?height=265&theme-id=light&default-tab=html,result&editable=true
-```
-               </script>
+      ```codepen
+      https://codepen.io/jangka44/embed/NWROGrL?height=265&theme-id=light&default-tab=html,result&editable=true
+      ```
+                     </script>
                                     <div class="toast-ui-viewer"></div>
                                 </div>
                             </li>
@@ -280,10 +245,10 @@ https://codepen.io/jangka44/embed/NWROGrL?height=265&theme-id=light&default-tab=
                                 <div class="article-list-box__body">
                                     <script type="text/x-template">
                                         # 토글 사이드 바
-```youtube
-BcEKYGaCjHw
-```
-                  </script>
+      ```youtube
+      BcEKYGaCjHw
+      ```
+                        </script>
                                     <div class="toast-ui-viewer"></div>
                                 </div>
                             </li>
