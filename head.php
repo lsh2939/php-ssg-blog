@@ -88,7 +88,7 @@ if ( !isset($pageThumbUrl) ) {
       <div class="con height-100p flex flex-jc-sb">
         <a href="index.ssghtml.php" class="logo">
           <span><i class="far fa-lemon"></i></span>
-          <span>DESIGN LEMON!</span>
+          <span>LSH BLOG</span>
         </a>
         <nav class="top-bar__menu-box-1 height-100p">
           <ul class="flex height-100p">
