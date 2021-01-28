@@ -340,7 +340,9 @@ a {
 }
 
 .article-list-box>ul>li {
-  border-top: 2px dotted black;
+  background-color: white;
+  border-top: 2px dotted skyblue;
+  padding: 20px;
   padding-top: 20px;
   padding-bottom: 20px;
   max-height: 400px;
@@ -350,6 +352,7 @@ a {
 .article-list-box__title > a {
   font-size: 1.8rem;
   text-decoration: underline;
+  color: skyblue;
 }
 
 .article-list-box__title > a:hover {
@@ -369,10 +372,12 @@ a {
 .article-list-box__writer>span:last-child {
   width: 70px;
   height: 70px;
+  color: white;
   background-color: skyblue;
   overflow: hidden;
   border-radius: 50%;
   margin-left: 10px;
+  text-align: center;
 }
 
 /* 게시물 리스트 박스 끝 */

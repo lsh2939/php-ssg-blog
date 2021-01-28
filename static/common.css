@@ -341,10 +341,10 @@ a {
 
 .article-list-box>ul>li {
   background-color: white;
-  border-top: 2px dotted skyblue;
+  border: 2px solid skyblue;
+  border-radius: 20px;
   padding: 20px;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  margin-top: 20px;
   max-height: 400px;
   overflow: hidden;
 }
@@ -366,7 +366,7 @@ a {
 .article-list-box__writer {
   display: flex;
   align-items: center;
-  margin-top: 5px;
+  margin-top: 10px;
 }
 
 .article-list-box__writer>span:last-child {
